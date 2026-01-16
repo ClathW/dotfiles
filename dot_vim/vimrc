@@ -43,6 +43,9 @@ set whichwrap+=<,>,h,l
 set encoding=utf-8
 set fileencoding=utf-8
 
+" clipboard
+
+set clipboard=unnamed
 
 " plugin
 

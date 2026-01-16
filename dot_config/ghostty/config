@@ -9,11 +9,11 @@ background-opacity-cells = false
 background-blur = true
 
 cursor-style = block
-shell-integration-features = ssh-terminfo, ssh-env, no-cursor
+shell-integration-features = ssh-env, no-cursor
 # custom-shader = ~/.config/ghostty/shaders/cursor_smear.glsl
 
 window-padding-balance = true
-window-save-state = always
+# window-save-state = always
 window-height = 20
 window-width = 80
 
@@ -27,3 +27,4 @@ confirm-close-surface = false
 #quick terminal
 keybind = global:command+backquote=toggle_quick_terminal
 quick-terminal-position = center
+quick-terminal-size = 60%

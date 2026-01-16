@@ -121,6 +121,8 @@ fi
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+alias f=fastfetch
+
 alias proxyon="
     export https_proxy=http://127.0.0.1:7890;
     export http_proxy=http://127.0.0.1:7890;
@@ -175,3 +177,8 @@ bindkey -v
 #    print -Pn "\e]0;$cmd %~\a"
 #  }
 #fi
+
+# Mole shell completion
+if output="$(mole completion zsh 2>/dev/null)"; then eval "$output"; fi
+
+[ -f "/Users/clath/.ghcup/env" ] && . "/Users/clath/.ghcup/env" # ghcup-env
